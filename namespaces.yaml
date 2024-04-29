@@ -1,0 +1,69 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-core
+  labels:
+    app.kubernetes.io/name: instana-core
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-units
+  labels:
+    app.kubernetes.io/name: instana-units
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-operator
+  labels:
+    app.kubernetes.io/name: instana-operator
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-cassandra
+  labels:
+    app.kubernetes.io/name: instana-cassandra
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-clickhouse
+  labels:
+    app.kubernetes.io/name: instana-clickhouse
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-elastic
+  labels:
+    app.kubernetes.io/name: instana-elastic
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-kafka
+  labels:
+    app.kubernetes.io/name: instana-kafka
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-postgres
+  labels:
+    app.kubernetes.io/name: instana-postgres
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: instana-zookeeper
+  labels:
+    app.kubernetes.io/name: instana-zookeeper
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: beeinstana
+  labels:
+    app.kubernetes.io/name: beeinstana
